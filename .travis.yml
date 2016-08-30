@@ -1,0 +1,16 @@
+language: scala
+scala:
+  - 2.11.8
+  - 2.10.4
+  - 2.9.3
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
+
+notifications:
+  slack:
+    rooms:
+      - datlinq:HNSkp9gCnAgi2HoFYs6ji67E#datalabs
+    on_success: always
+    on_failure: always
